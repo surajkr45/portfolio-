@@ -1,0 +1,64 @@
+html{
+  scroll-behavior:smooth;
+}
+body{
+  background:#0a0a0a;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+  margin:0;
+}
+
+nav{
+  background:#111;
+  padding:15px;
+}
+
+nav a{
+  color:#00aaff;
+  margin:15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:white;
+}
+
+section{
+  padding:70px 20px;
+}
+
+h1{
+  font-size:40px;
+}
+
+h2{
+  font-size:30px;
+}
+
+input,textarea,button{
+  display:block;
+  margin:10px auto;
+  padding:10px;
+  width:80%;
+  max-width:300px;
+}
+
+button{
+  background:#00aaff;
+  border:none;
+}
+.project-card{
+  background:#1a1a1a;
+  margin:20px auto;
+  padding:20px;
+  width:80%;
+  max-width:350px;
+  border-radius:8px;
+  transition:transform 0.3s;
+}
+
+.project-card:hover{
+  transform:scale(1.05);
+}
